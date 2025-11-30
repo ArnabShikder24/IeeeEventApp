@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
+    "prisma:migrate": "prisma migrate dev",
+    "install:types": "npm install --save-dev @types/express @types/cors @types/node @types/jsonwebtoken"
   },
   "keywords": [],
   "author": "",
