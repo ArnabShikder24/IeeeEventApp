@@ -17,7 +17,8 @@ app.use(cors({
     'http://127.0.0.1:3000',
     'http://127.0.0.1:5173',
     'https://ieeewebapp.vercel.app',  // Production frontend
-    'https://ieee-event-app.vercel.app' // If this is also your frontend
+    'https://ieee-event-app.vercel.app',
+    'https://ieeepusb.org'// If this is also your frontend
   ],
   credentials: true,              // Allow cookies and auth headers
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
